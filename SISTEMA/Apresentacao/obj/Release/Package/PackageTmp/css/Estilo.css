@@ -1,0 +1,67 @@
+﻿
+#rodape {background-color:#FBFBFB; padding-bottom:5px; padding-top:5px;  
+         border-top:3px solid #8e8e8e; border-bottom:3px solid #8e8e8e;
+}
+#rodape div p
+{
+    margin: 2px 0px 0px 0px;
+    font:bold 15px arial;
+  
+    text-align: center;
+    color: #3273AB; text-shadow: 0 3px 5px rgba(0,0,0,0.5);
+}
+#rodape div h5
+{
+    margin: 2px 0px 0px 0px;    
+   font:bold 19px arial;
+    text-align: center;
+   color: #3273AB; text-shadow: 0 3px 5px rgba(0,0,0,0.5);
+   
+}
+legend {  
+    
+    font: bold 15pt verdana, arial, helvetica, sans-serif;
+    color: white;      
+    text-shadow: #00008B 1px -1px, #000 -1px 1px, #00008B 1px 1px, #000 -1px -1px;
+    border-color:#000;
+}
+em {color:red;
+}
+
+.scroll-grid{
+    max-height:310px;
+    overflow:auto; 
+    width:100%;  
+    margin:0;  
+
+}
+p {  
+    
+    font: bold 15pt verdana, arial, helvetica, sans-serif;
+    color: white;      
+    text-shadow: #00008B 1px -1px, #000 -1px 1px, #00008B 1px 1px, #000 -1px -1px;
+}
+
+.index {  
+   margin-top:100px;
+    margin: 0 auto;
+    /*border:1px solid blue;*/
+    width: 950px;
+    height: 440px;
+    background-image: url('/img/fundo.png');
+    box-shadow: 0px 0px 15px 5px #3273AB;
+     border-radius: 10px; /* CSS3 */
+    -khtml-border-radius: 10px; /* Safari() */
+    -moz-border-radius: 10px; /* Mozilla */
+    -opera-border-radius: 10px; /* Opera */
+    -webkit-border-radius: 10px; /* Safari */
+}
+.uppercase
+{
+    text-transform: uppercase;
+}
+
+
+
+
+

@@ -1,0 +1,32 @@
+﻿div{
+   padding-bottom:0 !important;
+   padding-top:0 !important;
+  
+}
+p {
+    
+     font: bold 15pt verdana, arial, helvetica, sans-serif;   
+     margin:0px  !important; 
+}
+clear {
+    float:none;
+}
+.table {
+ margin-bottom:0 !important;
+ font-size: 12px !important;
+}
+.font{font-size:13px;}
+label {
+    font-size: 12px;
+    margin-bottom:0 !important;
+}
+body {
+    font-size: 12px !important;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    
+}
+th {font-size: 13px !important;
+}

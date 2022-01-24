@@ -1,0 +1,7 @@
+C:\Users\Luiz\Desktop\publicar\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\publicar\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\publicar\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\publicar\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\publicar\Apresentacao\obj\Release\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\publicar\Apresentacao\obj\Release\Apresentacao.dll
+C:\Users\Luiz\Desktop\publicar\Apresentacao\obj\Release\Apresentacao.pdb

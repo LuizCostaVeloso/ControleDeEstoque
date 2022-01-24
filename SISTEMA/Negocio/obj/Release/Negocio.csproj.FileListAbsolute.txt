@@ -1,0 +1,5 @@
+C:\Users\Luiz\Desktop\publicar\Negocio\bin\Release\Negocio.dll
+C:\Users\Luiz\Desktop\publicar\Negocio\bin\Release\Negocio.pdb
+C:\Users\Luiz\Desktop\publicar\Negocio\obj\Release\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\publicar\Negocio\obj\Release\Negocio.dll
+C:\Users\Luiz\Desktop\publicar\Negocio\obj\Release\Negocio.pdb

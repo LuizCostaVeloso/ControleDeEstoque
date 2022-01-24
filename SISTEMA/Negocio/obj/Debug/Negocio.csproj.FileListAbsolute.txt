@@ -1,0 +1,68 @@
+D:\Faculdade\2014-04-20 SICSEP\Negocio\bin\Debug\Negocio.dll
+D:\Faculdade\2014-04-20 SICSEP\Negocio\bin\Debug\Negocio.pdb
+D:\Faculdade\2014-04-20 SICSEP\Negocio\obj\Debug\Negocio.dll
+D:\Faculdade\2014-04-20 SICSEP\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\SICSEP\Negocio\bin\Debug\Negocio.XML
+C:\Users\Luiz\Desktop\SICSEP\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\SICSEP\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\SICSEP\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\SICSEP\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\SICSEP\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\publicar\Negocio\bin\Debug\Negocio.XML
+C:\Users\Luiz\Desktop\publicar\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\publicar\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luiz\Desktop\publicar\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\publicar\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luiz\Desktop\publicar\Negocio\obj\Debug\Negocio.pdb
+D:\ProgramasLocais\TccLuiz\SISTEMA\Negocio\bin\Debug\Negocio.XML
+D:\ProgramasLocais\TccLuiz\SISTEMA\Negocio\bin\Debug\Negocio.dll
+D:\ProgramasLocais\TccLuiz\SISTEMA\Negocio\bin\Debug\Negocio.pdb
+D:\ProgramasLocais\TccLuiz\SISTEMA\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\ProgramasLocais\TccLuiz\SISTEMA\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\ProgramasLocais\TccLuiz\SISTEMA\Negocio\obj\Debug\Negocio.dll
+D:\ProgramasLocais\TccLuiz\SISTEMA\Negocio\obj\Debug\Negocio.pdb

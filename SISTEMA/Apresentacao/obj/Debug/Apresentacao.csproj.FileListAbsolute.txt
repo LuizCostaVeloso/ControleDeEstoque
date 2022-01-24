@@ -1,0 +1,121 @@
+D:\Faculdade\SICSEP\Apresentacao\bin\Apresentacao.dll
+D:\Faculdade\SICSEP\Apresentacao\bin\Apresentacao.pdb
+D:\Faculdade\SICSEP\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+D:\Faculdade\SICSEP\Apresentacao\obj\Debug\Apresentacao.dll
+D:\Faculdade\SICSEP\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\testeMenu\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\testeMenu\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\testeMenu\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\testeMenu\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\testeMenu\Apresentacao\obj\Debug\Apresentacao.pdb
+D:\Faculdade\2014-04-20 SICSEP\Apresentacao\bin\Apresentacao.dll
+D:\Faculdade\2014-04-20 SICSEP\Apresentacao\bin\Apresentacao.pdb
+D:\Faculdade\2014-04-20 SICSEP\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+D:\Faculdade\2014-04-20 SICSEP\Apresentacao\obj\Debug\Apresentacao.dll
+D:\Faculdade\2014-04-20 SICSEP\Apresentacao\obj\Debug\Apresentacao.pdb
+D:\Faculdade\2014-04-20 SICSEP\Apresentacao\bin\Negocio.dll
+D:\Faculdade\2014-04-20 SICSEP\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-20 2 SICSEP\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-21 SICSEP\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-21 SICSEP\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-21 SICSEP\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-21 SICSEP\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-21 SICSEP\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-21 SICSEP\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-21 SICSEP\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-21 2 SICSEP\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-22 1 SICSEP - foi mechido no menu\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-22 2 SICSEP - classe serviço pronta\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-23 1 SICSEP - Classe Moto Finalizada\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe produto finalizada\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-24 1 SICSEP - Classe CLIENTE INICIALIZADO PELO O PROJETO ORIGINAL\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-26 1 SICSEP\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\2014-04-28 1 SICSEP\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\SICSEP\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\SICSEP\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\SICSEP\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\SICSEP\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\SICSEP\Apresentacao\bin\Negocio.xml
+C:\Users\Luiz\Desktop\SICSEP\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\SICSEP\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\SICSEP\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\SICSEP finalizado e entregue\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\SICSEP finalizado e entregue\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\SICSEP finalizado e entregue\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\SICSEP finalizado e entregue\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\SICSEP finalizado e entregue\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\SICSEP finalizado e entregue\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\SICSEP finalizado e entregue\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Luiz\Desktop\publicar\Apresentacao\bin\Apresentacao.dll
+C:\Users\Luiz\Desktop\publicar\Apresentacao\bin\Apresentacao.pdb
+C:\Users\Luiz\Desktop\publicar\Apresentacao\bin\Negocio.dll
+C:\Users\Luiz\Desktop\publicar\Apresentacao\bin\Negocio.pdb
+C:\Users\Luiz\Desktop\publicar\Apresentacao\bin\Negocio.xml
+C:\Users\Luiz\Desktop\publicar\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Luiz\Desktop\publicar\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\Luiz\Desktop\publicar\Apresentacao\obj\Debug\Apresentacao.pdb
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\bin\Apresentacao.dll.config
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\bin\Apresentacao.dll
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\bin\Apresentacao.pdb
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\bin\Negocio.dll
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\bin\Negocio.pdb
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\bin\Negocio.xml
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\obj\Debug\Apresentacao.csproj.AssemblyReference.cache
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\obj\Debug\Apresentacao.csproj.CoreCompileInputs.cache
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\obj\Debug\Apresentacao.csproj.CopyComplete
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\obj\Debug\Apresentacao.dll
+D:\ProgramasLocais\TccLuiz\SISTEMA\Apresentacao\obj\Debug\Apresentacao.pdb

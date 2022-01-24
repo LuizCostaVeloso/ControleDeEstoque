@@ -1,0 +1,1707 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Negocio</name>
+    </assembly>
+    <members>
+        <member name="T:Negocio.BO.ClienteBO">
+            <summary>
+            Classe da camada BO responsável pela Regra de negócio.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ClienteBO.objClienteDAO">
+            <summary>
+            Cria um objeto da camada DAO para dar acesso aos metodos inerente da Classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ClienteBO.listaCliente">
+             <summary>
+             Cria uma lista do Tipo da Classe. 
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ClienteBO.dataCadastro">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ClienteBO.id">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="M:Negocio.BO.ClienteBO.Gravar(Negocio.Model.Cliente)">
+            <summary>
+             Método responsável em preparar os dados para gravar ou alterar enviando para a camada DAO. 
+            </summary>
+            <param name="objCliente">Parâmetro que recebe as informações do Cliente.</param>
+        </member>
+        <member name="M:Negocio.BO.ClienteBO.Excluir(Negocio.Model.Cliente)">
+            <summary>
+             Método que recebe um id e chama o método excluir da camada DAO.
+            </summary>
+            <param name="objCliente">Parâmetro que recebe o id do Cliente.</param>
+        </member>
+        <member name="M:Negocio.BO.ClienteBO.BuscarListaCliente(Negocio.Model.Cliente)">
+            <summary>
+             Método responsável em buscar uma lista de Cliente.
+            </summary>
+            <param name="cliente">Parâmetro que recebe o nome do Cliente que deseja buscar.</param>
+            <returns>Retorna uma lista com os clientes encontrados do tipo Data Table.</returns>
+        </member>
+        <member name="M:Negocio.BO.ClienteBO.BuscarCliente(Negocio.Model.Cliente)">
+            <summary>
+              Método responsável em buscar um Cliente especifico.
+            </summary>
+            <param name="cliente">Parâmetro que recebe o id do produto que deseja buscar.</param>
+            <returns>Retorna um objeto preenchido com as informações do cliente especifico.</returns>
+        </member>
+        <member name="T:Negocio.BO.FuncionarioBO">
+            <summary>
+            Classe da camada BO responsável pela Regra de negócio.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.FuncionarioBO.objFuncionario">
+            <summary>
+            Cria o objeto para reservar um espaço no disco após instanciado.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.FuncionarioBO.objFuncionarioDAO">
+            <summary>
+            Cria um objeto da camada DAO para dar acesso aos metodos inerente da Classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.FuncionarioBO.listFuncionario">
+             <summary>
+             Cria uma lista do Tipo da Classe. 
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.FuncionarioBO.id">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.FuncionarioBO.dtNascimento">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.FuncionarioBO.dtAtivado">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.FuncionarioBO.habilitacao">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.FuncionarioBO.dtDesativado">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="M:Negocio.BO.FuncionarioBO.GravarSenha(Negocio.Model.Funcionario,System.String)">
+            <summary>
+              Método responsável em gravar ou alterar a senha do usuário. 
+            </summary>
+            <param name="objFuncionario">Parâmetro que recebe as informações do funcionário.</param>
+            <param name="cargo">Parâmetro que recebe o cargo do funcionário.</param>
+        </member>
+        <member name="M:Negocio.BO.FuncionarioBO.Gravar(Negocio.Model.Funcionario)">
+            <summary>
+            Método responsável em preparar os dados para gravar ou alterar enviando para a camada DAO. 
+            </summary>
+            <param name="objFuncionario">Parâmetro que recebe as informações do Funcionário.</param>
+        </member>
+        <member name="M:Negocio.BO.FuncionarioBO.Excluir(Negocio.Model.Funcionario)">
+            <summary>
+             Método que recebe um id e chama o método excluir da camada DAO.
+            </summary>
+            <param name="objFuncionario">Parâmetro que recebe o id do Funcionário.</param>
+        </member>
+        <member name="M:Negocio.BO.FuncionarioBO.BuscarListaFuncionario(System.String,Negocio.Model.Funcionario)">
+            <summary>
+              Método responsável em buscar uma lista de Funcionários.
+            </summary>
+            <param name="situacao">Parâmetro que recebe a situação do funcionário se ativo ou inativo.</param>
+            <param name="nomeFuncionario">Parâmetro que recebe o nome do funcionário.</param>
+            <returns>Retorna uma lista de funionário do tipo data table.</returns>
+        </member>
+        <member name="M:Negocio.BO.FuncionarioBO.BuscarListaMecanico">
+            <summary>
+            Método responsavel em buscar uma lista de Mecânico.
+            </summary>
+            <returns>Retorna os mecânicos ativos.</returns>
+        </member>
+        <member name="M:Negocio.BO.FuncionarioBO.BuscarFuncionario(Negocio.Model.Funcionario)">
+            <summary>
+             Método responsável em buscar um funcionário especifico.
+            </summary>
+            <param name="funcionario">Parâmetro que recebe o id do funcionário que deseja buscar.</param>
+            <returns>Retorna um objeto preenchido com as informações de um funcionário especifico.</returns>
+        </member>
+        <member name="M:Negocio.BO.FuncionarioBO.BuscarLoginSenha(Negocio.Model.Funcionario)">
+            <summary>
+              Método responsável em verificar se um funcionário com login e senha passado no parâmetro.
+            </summary>
+            <param name="funcionario">Parâmetro que recebe o login e senha do funcionário.</param>
+            <returns>retorna um objeto do tipo funcioário.</returns>
+        </member>
+        <member name="T:Negocio.BO.ItemProdutoBO">
+            <summary>
+            Classe da camada BO responsável pela Regra de negócio.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ItemProdutoBO.objItemProdutoDAO">
+            <summary>
+            Cria um objeto da camada DAO para dar acesso aos metodos inerente da Classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ItemProdutoBO.listaItemProduto">
+             <summary>
+             Cria uma lista do Tipo da Classe. 
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ItemProdutoBO.objItemProduto">
+            <summary>
+            Cria o objeto para reservar um espaço no disco após instanciado.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ItemProdutoBO.id">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="M:Negocio.BO.ItemProdutoBO.Gravar(Negocio.Model.ItemProduto,Negocio.Model.Produto,System.Int32)">
+            <summary>
+               Método responsável em preparar os dados para gravar ou alterar enviando para a camada DAO. 
+            </summary>
+            <param name="objItemProduto">Parâmetro que recebe as informações do item do Produto.</param>
+            <param name="objProduto">Parâmetro que recebe as informações do Produto.</param>
+            <param name="qtde">Inteiro que recebe a quantidade de Prduto.</param>
+        </member>
+        <member name="M:Negocio.BO.ItemProdutoBO.Excluir(Negocio.Model.ItemProduto)">
+            <summary>
+             Método que recebe as informações do item de produto para exluir o item e devolver os produtos excluido para o estoque.
+            </summary>
+            <param name="itemProduto">Parâmetro que recebe as informações do item de produto.</param>
+        </member>
+        <member name="M:Negocio.BO.ItemProdutoBO.listaIDataTableItemProduto(Negocio.Model.OrdemServico)">
+            <summary>
+            Método responsável em ler a lista de Produto.
+            </summary>
+            <param name="objOS">Parâmetro a lista item de produto.</param>
+            <returns>retorna a lista do tipo data table</returns>
+        </member>
+        <member name="M:Negocio.BO.ItemProdutoBO.buscarListaItemProduto(Negocio.Model.ItemProduto)">
+            <summary>
+             Método responsável em buscar uma lista de item de produto e calcular a quantidade vezes o preço.
+            </summary>
+            <param name="itemProduto">Parâmetro que recebe o ID da ordem de Serviço</param>
+            <returns>Retorna uma lista de item de produto</returns>
+        </member>
+        <member name="M:Negocio.BO.ItemProdutoBO.BuscarItemProduto(Negocio.Model.ItemProduto)">
+            <summary>
+             Método responsável em buscar uma lista de item de Produto.
+            </summary>
+            <param name="itemProduto">Parâmetro que recebe o id do item do produto.</param>
+            <returns>Retorna um objeto preenchido com as informações do item de produto.</returns>
+        </member>
+        <member name="T:Negocio.BO.ItemServicoBO">
+            <summary>
+            Classe da camada BO responsável pela Regra de negócio.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ItemServicoBO.objItemServicoDAO">
+            <summary>
+            Cria um objeto da camada DAO para dar acesso aos metodos inerente da Classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ItemServicoBO.listaItemServico">
+             <summary>
+             Cria uma lista do Tipo da Classe. 
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ItemServicoBO.objServicoBO">
+            <summary>
+            Cria um objeto do tipo BO.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ItemServicoBO.objItemServico">
+            <summary>
+            Cria o objeto para reservar um espaço no disco após instanciado.
+            </summary>
+        </member>
+        <member name="M:Negocio.BO.ItemServicoBO.Gravar(Negocio.Model.ItemServico,Negocio.Model.Servico)">
+            <summary>
+              Método responsável em preparar os dados para gravar ou alterar enviando para a camada DAO. 
+            </summary>
+            <param name="objItemServico">Parâmetro que recebe as informações do intem de serviço.</param>
+            <param name="servico">Parâmetro que recebe o id do serviço.</param>
+        </member>
+        <member name="M:Negocio.BO.ItemServicoBO.Excluir(Negocio.Model.ItemServico)">
+            <summary>
+              Método que recebe um id e chama o método excluir da camada DAO.
+            </summary>
+            <param name="itemServico">Parâmetro que recebe o id do Item de Serviço.</param>
+        </member>
+        <member name="M:Negocio.BO.ItemServicoBO.buscaListaDataTableItemServico(Negocio.Model.OrdemServico)">
+            <summary>
+             Método responsável em ler a lista de serviço.
+            </summary>
+            <param name="objOS">Parâmetro a lista item de serviço.</param>
+            <returns> retorna a lista do tipo data table</returns>
+        </member>
+        <member name="M:Negocio.BO.ItemServicoBO.buscarListaItemServico(Negocio.Model.ItemServico)">
+            <summary>
+             Método responsável em buscar uma lista de item de serviço.
+            </summary>
+            <param name="item">Parâmetro que recebe o id da ordem de serviço.</param>
+            <returns>Retorna uma lisata de serviços.</returns>
+        </member>
+        <member name="F:Negocio.BO.MotoBO.objMotoDAO">
+            <summary>
+            Cria um objeto da camada DAO para dar acesso aos metodos inerente da Classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.MotoBO.listaMoto">
+             <summary>
+             Cria uma lista do Tipo da Classe. 
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.MotoBO.objMoto">
+            <summary>
+            Cria o objeto para reservar um espaço no disco após instanciado.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.MotoBO.id">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="M:Negocio.BO.MotoBO.Gravar(Negocio.Model.Moto)">
+            <summary>
+              Método responsável em preparar os dados para gravar ou alterar enviando para a camada DAO.
+            </summary>
+            <param name="objMoto">Parâmetro que recebe as informações do Produto.</param>
+        </member>
+        <member name="M:Negocio.BO.MotoBO.Excluir(Negocio.Model.Moto)">
+            <summary>
+             Método que recebe um id e chama o método excluir da camada DAO.
+            </summary>
+            <param name="objMoto">Parâmetro que recebe o id da Moto.</param>
+        </member>
+        <member name="M:Negocio.BO.MotoBO.BuscarListaMoto(Negocio.Model.Moto)">
+            <summary>
+              Método responsável em buscar uma lista de Motos.
+            </summary>
+            <param name="moto">Parâmetro que recebe a placa da moto que deseja buscar.</param>
+            <returns>Retorna uma lista com as motos encontradas.</returns>
+        </member>
+        <member name="M:Negocio.BO.MotoBO.BuscarMoto(Negocio.Model.Moto)">
+            <summary>
+               Método responsável em buscar uma moto especifico.
+            </summary>
+            <param name="moto">Parâmetro que recebe o id ou a placa de uma moto que deseja buscar.</param>
+            <returns>Retorna um objeto preenchido com as informações de uma moto especifico.</returns>
+        </member>
+        <member name="T:Negocio.BO.OrdemServicoBO">
+            <summary>
+            Classe da camada BO responsável pela Regra de negócio.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.OrdemServicoBO.objOrdemServicoDAO">
+            <summary>
+            Cria o objeto para reservar um espaço no disco após instanciado.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.OrdemServicoBO.listaOrdemServico">
+             <summary>
+             Cria uma lista do Tipo da Classe. 
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.OrdemServicoBO.id">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.OrdemServicoBO.dataFechamento">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.OrdemServicoBO.variavel">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="M:Negocio.BO.OrdemServicoBO.Gravar(Negocio.Model.OrdemServico)">
+            <summary>
+            Método responsável em preparar os dados para gravar ou alterar enviando para a camada DAO. 
+            </summary>
+            <param name="objOrdemServico">Parâmetro que recebe as informações da ordem de serviço.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Negocio.BO.OrdemServicoBO.Excluir(Negocio.Model.OrdemServico)">
+            <summary>
+            Método que recebe um id e chama o método excluir da camada DAO.  
+            </summary>
+            <param name="objOrdemServico">Parâmetro que recebe o id da ordem de serviço.</param>
+        </member>
+        <member name="M:Negocio.BO.OrdemServicoBO.BuscarListaOrdemServico(System.String)">
+            <summary>
+            Método responsável em buscar uma lista de ordem de serviço.
+            </summary>
+            <param name="buscarOS">Parâmetro que recebe uma string com o tipe de ordem de serviço.</param>
+            <returns>Retorna uma lista com as ordem de serviços encontradas.</returns>
+        </member>
+        <member name="M:Negocio.BO.OrdemServicoBO.BuscarOrdemServico(Negocio.Model.OrdemServico)">
+            <summary>
+            Método responsável em buscar uma ordem de serviço especifica.
+            </summary>
+            <param name="ordem">Recebe o id da ordem de serviço que deseja buscar.</param>
+            <returns>Retorna um objeto com preenchido com as informações da ordem de serviço selecionada.</returns>
+        </member>
+        <member name="M:Negocio.BO.OrdemServicoBO.CalcularServico(Negocio.Model.OrdemServico)">
+            <summary>
+            Método que recebe o objeto OS e ler a lista de item de serviço e calcula.
+            </summary>
+            <param name="OS">Parâmetro que recebe a lista de serviços</param>
+            <returns>Retorna a lista de serviços calculada.</returns>
+        </member>
+        <member name="M:Negocio.BO.OrdemServicoBO.CaucularProduto(Negocio.Model.OrdemServico)">
+            <summary>
+            Método que recebe o objeto OS e ler a lista de item de produto e calcula.
+            </summary>
+            <param name="OS">Parâmetro que recebe a lista de produtos</param>
+            <returns>Retorna a lista de produtos calculado.</returns>
+        </member>
+        <member name="T:Negocio.BO.ProdutoBO">
+            <summary>
+            Classe da camada BO responsável pela Regra de negócio.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ProdutoBO.objProdutoDAO">
+            <summary>
+            Cria um objeto da camada DAO para dar acesso aos metodos inerente da Classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ProdutoBO.listaProduto">
+             <summary>
+             Cria uma lista do Tipo da Classe. 
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ProdutoBO.objProduto">
+            <summary>
+            Cria o objeto para reservar um espaço no disco após instanciado.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ProdutoBO.estoqueMinimo">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ProdutoBO.precoCompra">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ProdutoBO.precoVenda">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ProdutoBO.entradaEstoque">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ProdutoBO.id">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="M:Negocio.BO.ProdutoBO.Gravar(Negocio.Model.Produto)">
+            <summary>
+              Método responsável em preparar os dados para gravar ou alterar enviando para a camada DAO. 
+            </summary>
+            <param name="objProduto">Parâmetro que recebe as informações do Produto.</param>
+        </member>
+        <member name="M:Negocio.BO.ProdutoBO.Baixar(Negocio.Model.Produto)">
+            <summary>
+            Método responsável em baixar os produtos que sairem da loja.
+            </summary>
+            <param name="produto">Parâmetro que recebe as informaçõs do produto com a quantidade que saiu.</param>
+        </member>
+        <member name="M:Negocio.BO.ProdutoBO.Excluir(Negocio.Model.Produto)">
+            <summary>
+              Método que recebe um id e chama o método excluir da camada DAO.
+            </summary>
+            <param name="objProduto">Parâmetro que recebe o id do Produto.</param>
+        </member>
+        <member name="M:Negocio.BO.ProdutoBO.BuscarListaProdutoBaixo(Negocio.Model.Produto)">
+            <summary>
+             Método responsável em buscar uma lista de Produtos.
+            </summary>
+            <param name="produto">Parâmetro que recebe o nome do produto que deseja buscar.</param>
+            <returns>Retorna uma lista com os produtos encontradas.</returns>
+        </member>
+        <member name="M:Negocio.BO.ProdutoBO.BuscarListaProduto(Negocio.Model.Produto)">
+            <summary>
+             Método responsável em buscar uma lista de Produtos.
+            </summary>
+            <param name="produto">Parâmetro que recebe o nome do produto que deseja buscar.</param>
+            <returns>Retorna uma lista com os produtos encontradas.</returns>
+        </member>
+        <member name="M:Negocio.BO.ProdutoBO.BuscarProduto(Negocio.Model.Produto)">
+            <summary>
+             Método responsável em buscar um produto especifico.
+            </summary>
+            <param name="produto">Parâmetro que recebe o id do produto que deseja buscar.</param>
+            <returns>Retorna um objeto preenchido com as informações de um Produto especifico.</returns>
+        </member>
+        <member name="M:Negocio.BO.ProdutoBO.Somar(Negocio.Model.Produto)">
+            <summary>
+            Metodo responsável em adicionar o produto no estoque
+            </summary>
+            <param name="produto">Parâmetro que recebe a nova quantidade do produto.</param>
+        </member>
+        <member name="T:Negocio.BO.ServicoBO">
+            <summary>
+            Classe da camada BO responsável pela Regra de negócio.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ServicoBO.listaServico">
+             <summary>
+             Cria uma lista do Tipo da Classe. 
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ServicoBO.objServicoDAO">
+            <summary>
+            Cria um objeto da camada DAO para dar acesso aos metodos inerente da Classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ServicoBO.objServico">
+            <summary>
+            Cria o objeto para reservar um espaço no disco após instanciado.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ServicoBO.valor">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="F:Negocio.BO.ServicoBO.id">
+            <summary>
+            Cria as variaveis.
+            </summary>
+        </member>
+        <member name="M:Negocio.BO.ServicoBO.Gravar(Negocio.Model.Servico)">
+            <summary>
+            Método responsável em preparar os dados para gravar ou alterar enviando para a camada DAO. 
+            </summary>
+            <param name="objServico">Parâmetro que recebe as informações do Serviço.</param>
+        </member>
+        <member name="M:Negocio.BO.ServicoBO.Excluir(Negocio.Model.Servico)">
+            <summary>
+            Método que recebe um id e chama o método excluir da camada DAO.
+            </summary>
+            <param name="objServico">Parâmetro que recebe o id do Serviço.</param>
+        </member>
+        <member name="M:Negocio.BO.ServicoBO.BuscarListaServico(Negocio.Model.Servico)">
+            <summary>
+            Método responsável em buscar uma lista de Serviços.
+            </summary>
+            <param name="servico">Parâmetro que recebe o nome do serviço.</param>
+            <returns>Retorna uma lista com os serviços encontradas.</returns>
+        </member>
+        <member name="M:Negocio.BO.ServicoBO.BuscarServico(Negocio.Model.Servico)">
+            <summary>
+            Método responsável em buscar um tipo de Serviços.
+            </summary>
+            <param name="servico">Parâmetro que recebe o id do Serviço.</param>
+            <returns>Retorna um objeto com preenchido com as informações de um serviço especifico.</returns>
+        </member>
+        <member name="T:Negocio.DAO.ClienteDAO">
+             <summary>
+            Classe DAO, responsável por fazer as persistências na tabela de serviço no banco. 
+             </summary>
+        </member>
+        <member name="F:Negocio.DAO.ClienteDAO.sql">
+            <summary>
+            Instancia de um novo objeto do tipo StringBuilder.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ClienteDAO.comando">
+            <summary>
+              Instancia de um novo objeto do tipo SqlCommand.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ClienteDAO.listaCliente">
+            <summary>
+            Cria lista de cliente.
+            </summary>
+        </member>
+        <member name="M:Negocio.DAO.ClienteDAO.Gravar(Negocio.Model.Cliente)">
+            <summary>
+             Método que converte o objeto em linguagem sql e grava no banco as informações.
+            </summary>
+            <param name="objCliente">Informações são passada no objeto como parâmetro para pessistir no banco.</param>
+        </member>
+        <member name="M:Negocio.DAO.ClienteDAO.Alterar(Negocio.Model.Cliente)">
+            <summary>
+              Método que converte o objeto em liguagem sql persistindo no banco as informações para alteração. 
+            </summary>
+            <param name="objCliente">Informações são passada no objeto como parâmetro especificando quais informações deseja alterar.</param>
+        </member>
+        <member name="M:Negocio.DAO.ClienteDAO.Excluir(Negocio.Model.Cliente)">
+            <summary>
+             Método responsável em fazer a exclusão no banco das informações desejada.
+            </summary>
+            <param name="objCliente">>objeto preenchido com o id e passado como parâmetro para exclusão no banco das informações especificas.</param>
+        </member>
+        <member name="M:Negocio.DAO.ClienteDAO.BuscarListaCliente(Negocio.Model.Cliente)">
+            <summary>
+              Método responsável em fazer a busca das informações desejada pelo id da moto.
+            </summary>
+            <param name="cliente">Nome do Cliente passado como parâmetro dentro do objeto Cliente.</param>
+            <returns>Este método retorna uma lista de Cliente</returns>
+        </member>
+        <member name="M:Negocio.DAO.ClienteDAO.BuscarCliente(Negocio.Model.Cliente)">
+            <summary>
+             Método responsável em fazer a busca das informações do Cliente especifico.
+            </summary>
+            <param name="cliente">Este objeto é preenchido com o CPF/CNPJ ou id para fazer uma busca especifica passado no método como parâmetro</param>
+            <returns>Este retorna um objeto do tipo cliente</returns>
+        </member>
+        <member name="T:Negocio.DAO.FuncionarioDAO">
+             <summary>
+            Classe DAO, responsável por fazer as persistências na tabela de serviço no banco. 
+             </summary>
+        </member>
+        <member name="F:Negocio.DAO.FuncionarioDAO.sql">
+            <summary>
+            Instancia de um novo objeto do tipo StringBuilder.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.FuncionarioDAO.comando">
+            <summary>
+              Instancia de um novo objeto do tipo SqlCommand.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.FuncionarioDAO.listaFuncionario">
+            <summary>
+            Cria uma lista do tipo funcionário.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.FuncionarioDAO.data">
+            <summary>
+            Cria uma variavel do tipo DataTime.
+            </summary>
+        </member>
+        <member name="M:Negocio.DAO.FuncionarioDAO.Gravar(Negocio.Model.Funcionario)">
+            <summary>
+              Método que converte o objeto em linguagem sql e grava no banco as informações.
+            </summary>
+            <param name="objFuncionario">Informações são passada no objeto como parâmetro para pessistir no banco.</param>
+        </member>
+        <member name="M:Negocio.DAO.FuncionarioDAO.Alterar(Negocio.Model.Funcionario)">
+            <summary>
+            Método que converte o objeto em liguagem sql persistindo no banco as informações para alteração.
+            </summary>
+            <param name="objFuncionario">Informações são passada no objeto como parâmetro especificando quais informações deseja alterar</param>
+        </member>
+        <member name="M:Negocio.DAO.FuncionarioDAO.Excluir(Negocio.Model.Funcionario)">
+            <summary>
+             Método responsável em fazer a exclusão no banco das informações desejada.
+            </summary>
+            <param name="funcionario">objeto preenchido com o id e passado como parâmetro para exclusão no banco das informações especificas.</param>
+        </member>
+        <member name="M:Negocio.DAO.FuncionarioDAO.BuscarListaFuncionario(Negocio.Model.Funcionario)">
+            <summary>
+               Método responsável em fazer a busca das informações desejada pelo pelo cargo do Mecânico ou pelo Nome do Funcionário.
+            </summary>
+            <param name="funcionario">Nome do cliente ou cargo Mecânico e passado com0 parâmetro dentro do objeto Funcionário.</param>
+            <returns>Retorna uma lista de Funcionários.</returns>
+        </member>
+        <member name="M:Negocio.DAO.FuncionarioDAO.BuscarFuncionario(Negocio.Model.Funcionario)">
+            <summary>
+             Método responsável em fazer a busca das informações desejada pelo id funcionário especifico.
+            </summary>
+            <param name="funcionario">Id do funcionário é passado como parâmetro dentro do objeto para fazer uma busca especifica.</param>
+            <returns>Retorna um objeto com as informações preenchidas.</returns>
+        </member>
+        <member name="M:Negocio.DAO.FuncionarioDAO.BuscarFuncionarioLoginSenha(Negocio.Model.Funcionario)">
+            <summary>
+            Metodo responsável em verificar no banco se o usuário tem permissão.
+            </summary>
+            <param name="funcionario">Login e Senha são passados como parâmetro dentro do objeto para fazer uma busca especifica.</param>
+            <returns>Retorna um objeto do tipo funcionário especifico.</returns>
+        </member>
+        <member name="M:Negocio.DAO.FuncionarioDAO.BuscarFuncionarioLogin(Negocio.Model.Funcionario)">
+            <summary>
+             Método responsável em verificar se ja existe no banco um login especifico.
+            </summary>
+            <param name="funcionario">Login é passado como parâmetro dentro do objeto para fazer uma busca especifica.</param>
+            <returns>Retorna um objeto do tipo funcioário</returns>
+        </member>
+        <member name="T:Negocio.DAO.ItemProdutoDAO">
+             <summary>
+            Classe DAO, responsável por fazer as persistências na tabela de serviço no banco. 
+             </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemProdutoDAO.sql">
+            <summary>
+            Instancia de um novo objeto do tipo StringBuilder.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemProdutoDAO.comando">
+            <summary>
+              Instancia de um novo objeto do tipo SqlCommand.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemProdutoDAO.listaItemProduto">
+            <summary>
+            Cria lista e objetos statico.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemProdutoDAO.objProdutoDAO">
+            <summary>
+            Cria um objeto do tipo DAO;
+            </summary>
+        </member>
+        <member name="M:Negocio.DAO.ItemProdutoDAO.Gravar(Negocio.Model.ItemProduto)">
+            <summary>
+               Método que converte o objeto em linguagem sql e grava no banco as informações.
+            </summary>
+            <param name="objItemProduto">Informações são passada no objeto como parâmetro para pessistir no banco.</param>
+        </member>
+        <member name="M:Negocio.DAO.ItemProdutoDAO.Alterar(Negocio.Model.ItemProduto)">
+            <summary>
+              Método que converte o objeto em liguagem sql persistindo no banco as informações para alteração. 
+            </summary>
+            <param name="objItemProduto">Informações são passada no objeto como parâmetro especificando quais informações deseja alterar</param>
+        </member>
+        <member name="M:Negocio.DAO.ItemProdutoDAO.Excluir(Negocio.Model.ItemProduto)">
+            <summary>
+             Método responsável em fazer a exclusão no banco das informações desejada.
+            </summary>
+            <param name="itemProduto">objeto preenchido com o id e passado como parâmetro para exclusão no banco das informações especificas.</param>
+        </member>
+        <member name="M:Negocio.DAO.ItemProdutoDAO.buscarListaItemProduto(Negocio.Model.ItemProduto)">
+            <summary>
+             Método responsável em fazer a busca das informações desejada pelo id da moto.
+            </summary>
+            <param name="itemProduto">Id da ordem de serviço e passado dentro do item como parâmetro.</param>
+            <returns>Este método retorna uma lista de Item de Produto</returns>
+        </member>
+        <member name="M:Negocio.DAO.ItemProdutoDAO.BuscarItemProduto(Negocio.Model.ItemProduto)">
+            <summary>
+              Método responsável em fazer a busca das informações do item especifico.
+            </summary>
+            <param name="itemProduto">Id do item é passado como parâmetro dentro do objeto para fazer uma busca especifica.</param>
+            <returns>Retorna um objeto com as informações preenchidas.</returns>
+        </member>
+        <member name="T:Negocio.DAO.ItemServicoDAO">
+             <summary>
+            Classe DAO, responsável por fazer as persistências na tabela de serviço no banco. 
+             </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemServicoDAO.sql">
+            <summary>
+            Instancia de um novo objeto do tipo StringBuilder.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemServicoDAO.comando">
+            <summary>
+              Instancia de um novo objeto do tipo SqlCommand.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemServicoDAO.listaItemServico">
+            <summary>
+            Cria uma lista statica do tipo item de serviço.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemServicoDAO.objServicoDAO">
+            <summary>
+            Cria os objetos
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemServicoDAO.objServico">
+            <summary>
+            Cria os objetos do tipo statico.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ItemServicoDAO.variavel">
+            <summary>
+            Cria uma variavel.
+            </summary>
+        </member>
+        <member name="M:Negocio.DAO.ItemServicoDAO.Gravar(Negocio.Model.ItemServico)">
+            <summary>
+             Método que converte o objeto em linguagem sql e grava no banco as informações.
+            </summary>
+            <param name="objItemServico">Informações são passada no objeto como parâmetro para pessistir no banco.</param>
+        </member>
+        <member name="M:Negocio.DAO.ItemServicoDAO.Alterar(Negocio.Model.ItemServico)">
+            <summary>
+              Método que converte o objeto em liguagem sql persistindo no banco as informações para alteração. 
+            </summary>
+            <param name="objItemServico">Informações são passada no objeto como parâmetro especificando quais informações deseja alterar</param>
+        </member>
+        <member name="M:Negocio.DAO.ItemServicoDAO.ExcluirUm(Negocio.Model.ItemServico)">
+            <summary>
+              Método responsável em fazer a exclusão no banco das informações desejada.
+            </summary>
+            <param name="objItemServico">objeto preenchido com o id e passado como parâmetro para exclusão no banco das informações especificas.</param>
+        </member>
+        <member name="M:Negocio.DAO.ItemServicoDAO.BuscarListaItemServico(Negocio.Model.ItemServico)">
+            <summary>
+              Método responsável em fazer a busca das informações desejada pela placa da moto.
+            </summary>
+            <param name="item">objeto preenchido com o id e passado como parâmetro para busca no banco.</param>
+            <returns>Este método retorna uma lista de Item de Serviço.</returns>
+        </member>
+        <member name="M:Negocio.DAO.ItemServicoDAO.BuscarItemServico(System.Int32)">
+            <summary>
+              Método responsável em fazer a busca das informações do item especifico.
+            </summary>
+            <param name="itemServicoID">Id do item é passado como parâmetro dentro do objeto para fazer uma busca especifica.</param>
+            <returns>Retorna um objeto com as informações preenchidas.</returns>
+        </member>
+        <member name="T:Negocio.DAO.MotoDAO">
+             <summary>
+            Classe DAO, responsável por fazer as persistências na tabela de serviço no banco. 
+             </summary>
+        </member>
+        <member name="F:Negocio.DAO.MotoDAO.sql">
+            <summary>
+            Instancia de um novo objeto do tipo StringBuilder.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.MotoDAO.comando">
+            <summary>
+              Instancia de um novo objeto do tipo SqlCommand.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.MotoDAO.listaMoto">
+            <summary>
+            Cria uma lista do tipo Moto.
+            </summary>
+        </member>
+        <member name="M:Negocio.DAO.MotoDAO.Gravar(Negocio.Model.Moto)">
+            <summary>
+            Método que converte o objeto em linguagem sql e grava no banco as informações.
+            </summary>
+            <param name="objMoto">Informações são passada no objeto como parâmetro para pessistir no banco.</param>
+        </member>
+        <member name="M:Negocio.DAO.MotoDAO.Alterar(Negocio.Model.Moto)">
+            <summary>
+             Método que converte o objeto em liguagem sql persistindo no banco as informações para alteração. 
+            </summary>
+            <param name="objMoto">Informações são passada no objeto como parâmetro especificando quais informações deseja alterar.</param>
+        </member>
+        <member name="M:Negocio.DAO.MotoDAO.Excluir(Negocio.Model.Moto)">
+            <summary>
+             Método responsável em fazer a exclusão no banco das informações desejada.
+            </summary>
+            <param name="objMoto">objeto preenchido com o id e passado como parâmetro para exclusão no banco das informações especificas.</param>
+        </member>
+        <member name="M:Negocio.DAO.MotoDAO.BuscarListaMoto(Negocio.Model.Moto)">
+            <summary>
+              Método responsável em fazer a busca das informações desejada pela placa da moto.
+            </summary>
+            <param name="moto">objeto preenchido com as informações da placa e passado como parâmetro para busca no banco.</param>
+            <returns>Este método retorna uma lista de Moto.</returns>
+        </member>
+        <member name="M:Negocio.DAO.MotoDAO.BuscarMoto(Negocio.Model.Moto)">
+            <summary>
+             Método responsável em fazer a busca das informações de uma moto especifica.
+            </summary>
+            <param name="moto">Id ou placa da moto é passado como parâmetro dentro do objeto para fazer a busca da moto especifica.</param>
+            <returns>Este método retorna um objeto do tipo Moto.</returns>
+        </member>
+        <member name="T:Negocio.DAO.OrdemServicoDAO">
+             <summary>
+            Classe DAO, responsável por fazer as persistências na tabela de serviço no banco. 
+             </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.sql">
+            <summary>
+            Instancia de um novo objeto do tipo StringBuilder.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.comando">
+            <summary>
+              Instancia de um novo objeto do tipo SqlCommand.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.listaOrdemServico">
+            <summary>
+            Cria uma lista para receber as informações da Ordem de Serviço buscados no banco.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objFuncionario">
+            <summary>
+            Cria um objeto do tipo Funcionário
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objCliente">
+            <summary>
+            Cria um objeto do tipo Cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objMoto">
+            <summary>
+             Cria um objeto do tipo Moto.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objFuncionarioDAO">
+            <summary>
+            Cria um objeto do tipo funcionário DAO para acessar metodos da classe DAO.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objClienteDAO">
+            <summary>
+            Cria um objeto do tipo cliente DAO para acessar metodos da classe DAO.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objMotoDAO">
+            <summary>
+            Cria um objeto do tipo moto DAO para acessar metodos da classe DAO.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objItemProdutoDAO">
+            <summary>
+            Cria um objeto do tipo item Produto DAO para acessar metodos da classe DAO.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objItemServicoDAO">
+            <summary>
+            Cria um objeto do tipo item Serviço DAO para acessar metodos da classe DAO.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objOrdemServico">
+            <summary>
+            Cria um objeto do tipo Ordem de Serviço.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objItemProduto">
+            <summary>
+            Cria um objeto do tipo Ordem de Item Serviço.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.objItemServico">
+            <summary>
+            Cria um objeto do tipo Ordem de item Produto.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.verificador">
+            <summary>
+            Uma string usada como variavel.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.OrdemServicoDAO.data">
+            <summary>
+            Uma variavel do tipo data usada para testar se objeto preenchido e do tipo data.
+            </summary>
+        </member>
+        <member name="M:Negocio.DAO.OrdemServicoDAO.Gravar(Negocio.Model.OrdemServico)">
+            <summary>
+             Método que converte o objeto em liguagem sql e grava no banco as informações.
+            </summary>
+            <param name="objOrdemServico">Informações do produto recebida como parâmetro.</param>
+            <returns>Após gravar as informações retorna o int id da ordem de serviço.</returns>
+        </member>
+        <member name="M:Negocio.DAO.OrdemServicoDAO.Alterar(Negocio.Model.OrdemServico)">
+            <summary>
+              Método que converte o objeto em liguagem sql persistindo no banco as informações para alteração das informações do produto. 
+            </summary>
+            <param name="objOrdemServico">Informações da ordem de serviço recebida como parâmetro pelo objeto</param>
+        </member>
+        <member name="M:Negocio.DAO.OrdemServicoDAO.Excluir(Negocio.Model.OrdemServico)">
+            <summary>
+              Método responsável em fazer a exclusão da ordem de serviço no banco.
+            </summary>
+            <param name="objOrdemServico">objeto preenchido com o id e passado como parâmetro para exclusão no banco.</param>
+        </member>
+        <member name="M:Negocio.DAO.OrdemServicoDAO.BuscarListaOrdemServico(System.String)">
+            <summary>
+            Método responsável em fazer a busca das ordem de serviço solicitadas.
+            </summary>
+            <param name="buscarOS">string recebida como parâmetro para ser usada como condição para o tipo de busca desejada.</param>
+            <returns>retorna uma lista de ordem de serviços conforme solicitação</returns>
+        </member>
+        <member name="M:Negocio.DAO.OrdemServicoDAO.BuscarOrdemServico(Negocio.Model.OrdemServico)">
+            <summary>
+             Método que busca uma ordem de serviço.
+            </summary>
+            <param name="ordem">parâmetro preenchido com o id para fazer a busca da ordem de serviço especifica.</param>
+            <returns>retorna um ordem de serviço dentro do objeto.</returns>
+        </member>
+        <member name="T:Negocio.DAO.ProdutoDAO">
+             <summary>
+            Classe DAO, responsável por fazer as persistências na tabela de Produto no banco. 
+             </summary>
+        </member>
+        <member name="F:Negocio.DAO.ProdutoDAO.sql">
+            <summary>
+            Instancia de um novo objeto do tipo StringBuilder.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ProdutoDAO.comando">
+            <summary>
+              Instancia de um novo objeto do tipo SqlCommand.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ProdutoDAO.listaProduto">
+            <summary>
+            Instancia de uma lista para receber as informações dos produtos buscados no banco.
+            </summary>
+        </member>
+        <member name="M:Negocio.DAO.ProdutoDAO.Gravar(Negocio.Model.Produto)">
+            <summary>
+             Método que converte o objeto em liguagem sql e grava no banco as informações.
+            </summary>
+            <param name="objProduto">Informações do produto recebida como parâmetro.</param>
+        </member>
+        <member name="M:Negocio.DAO.ProdutoDAO.Alterar(Negocio.Model.Produto)">
+            <summary>
+             Método que converte o objeto em liguagem sql persistindo no banco as informações para alteração do produto. 
+            </summary>
+            <param name="objProduto">Informações do produto recebida como parâmetro</param>
+        </member>
+        <member name="M:Negocio.DAO.ProdutoDAO.Excluir(Negocio.Model.Produto)">
+            <summary>
+             Método responsável em fazer a exclusão do produto no banco.
+            </summary>
+            <param name="objProduto">objeto preenchido com o id e passado como parâmetro para exclusão no banco.</param>
+        </member>
+        <member name="M:Negocio.DAO.ProdutoDAO.BuscarListaProduto(Negocio.Model.Produto)">
+            <summary>
+            Método responsável em fazer a busca dos produtos solicitados.
+            </summary>
+            <param name="produto">Nome do serviço passado com parâmetro dentro do objeto produto.</param>
+            <returns>Este método retorna uma lista de produto.</returns>
+        </member>
+        <member name="M:Negocio.DAO.ProdutoDAO.BuscarProduto(Negocio.Model.Produto)">
+            <summary>
+            Método responsável em fazer a busca do produto solicitados.
+            </summary>
+            <param name="produto">Id do serviço passado como parâmetro dentro do objeto serviço para fazer a busca do produto.</param>
+            <returns>Este método retorna um objeto do tipo serviço.</returns>
+        </member>
+        <member name="T:Negocio.DAO.ServicoDAO">
+             <summary>
+            Classe DAO, responsável por fazer as persistências na tabela de serviço no banco. 
+             </summary>
+        </member>
+        <member name="F:Negocio.DAO.ServicoDAO.sql">
+            <summary>
+            Instancia de um novo objeto do tipo StringBuilder.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ServicoDAO.comando">
+            <summary>
+              Instancia de um novo objeto do tipo SqlCommand.
+            </summary>
+        </member>
+        <member name="F:Negocio.DAO.ServicoDAO.listaServico">
+            <summary>
+            Instancia de uma lista para receber as informações dos produtos buscados no banco.
+            </summary>
+        </member>
+        <member name="M:Negocio.DAO.ServicoDAO.Gravar(Negocio.Model.Servico)">
+            <summary>
+            Método que converte o objeto em liguagem sql e grava no banco as informações.
+            </summary>
+            <param name="objServico">Informações do serviço recebida como parâmetro.</param>
+        </member>
+        <member name="M:Negocio.DAO.ServicoDAO.Alterar(Negocio.Model.Servico)">
+            <summary>
+            Método que converte o objeto em liguagem sql persistindo no banco as informações para alteração do serviço. 
+            </summary>
+            <param name="objServico">Informações do serviço recebida como parâmetro.</param>
+        </member>
+        <member name="M:Negocio.DAO.ServicoDAO.Excluir(Negocio.Model.Servico)">
+            <summary>
+             Método responsável em fazer a exclusão do serviço no banco.
+            </summary>
+            <param name="objServico">Informações do serviço recebida como parâmetro.</param>
+        </member>
+        <member name="M:Negocio.DAO.ServicoDAO.BuscarListaServico(Negocio.Model.Servico)">
+            <summary>
+            Método responsável em fazer a busca dos serviços solicitados.
+            </summary>
+            <param name="servico">Nome do serviço passado com parâmetro dentro do objeto serviço.</param>
+            <returns>Este método retorna uma lista de serviço.</returns>
+        </member>
+        <member name="M:Negocio.DAO.ServicoDAO.BuscarServico(Negocio.Model.Servico)">
+            <summary>
+            Método responsável em fazer a busca do serviços solicitados.
+            </summary>
+            <param name="servico">Id do serviço passado com parâmetro dentro do objeto serviço.</param>
+            <returns>Este método retorna um objeto do tipo serviço.</returns>
+        </member>
+        <member name="M:Negocio.MetodosApoio.DescricaoEnum(System.Enum)">
+            <summary>
+            Retorna a descrição de um determinado elemento de um Enumerador.
+            </summary>
+            <param name="elemento">Elemento do enumerador de onde a descrição será retornada.</param>
+            <returns>String com a descrição do elemento do Enumerador.</returns>
+        </member>
+        <member name="M:Negocio.MetodosApoio.ListaElementos(System.Type)">
+            <summary>
+            Retorna uma lista com os valores de um determinado enumerador.
+            </summary>
+            <param name="enumerador">Enumerador que terá os valores listados.</param>
+            <returns>Lista com descrição e valores dos elementos do enumerador.</returns>
+        </member>
+        <member name="T:Negocio.Model.Cliente">
+            <summary>
+            A classe Cliente é responsável por criar espaços no disco quando instanciada para manipulação das
+            informações inerentes a este, que vão ser adicionadas conforme os nomes dos
+            seus atributos.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.clienteID">
+            <summary>
+            Cliente ID = este ficará responsável por identificar unicamente os clientes
+            desta classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.nome">
+            <summary>
+            Nome = aqui será inserido pelo usuário o nome do novo funcionário da empresa.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.tipoPessoa">
+            <summary>
+            Tipo pessoa = define se pessoa é do tipo física ou jurídica.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.cpfCnpj">
+            <summary>
+            CPF = aqui será inserido o numero de cadastro de pessoa física do cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.sexo">
+            <summary>
+            Sexo = será identificado aqui pelo usuário o sexo do cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.dataCadastro">
+            <summary>
+            Data de Cadastro = aqui será inserida a data em que foi criada a cadastro do
+            cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.endereco">
+            <summary>
+            Endereço = aqui será inserido o nome da rua e o numero da casa do cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.cep">
+            <summary>
+            CEP = aqui será inserido o cep da rua em que o cliente mora.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.bairro">
+            <summary>
+            Bairro = aqui será inserido pelo usuário o nome do bairro onde o cliente mora.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.complemento">
+            <summary>
+            Complemento = será inserido qualquer complemento do endereço do cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.cidade">
+            <summary>
+            Cidade = aqui será inserida a cidade em que o cliente mora.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.uf">
+            <summary>
+            Uf = aqui será inserido o estado em que o cliente mora.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.telefone1">
+            <summary>
+            Telefone fixo = será aqui o numero do telefone do cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.telefone2">
+            <summary>
+            Telefone celular 2 = será inserido aqui o numero do telefone cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.email">
+            <summary>
+            E-mail = será inserido aqui o e-mail do cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.observacao">
+            <summary>
+            Observação = aqui será inserida qualquer observação necessária sobre o cliente. 
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.rg">
+            <summary>
+            RG = aqui será inserido o registro único do cliente.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Cliente.orgaoEmissor">
+            <summary>
+            Órgão expedidor = aqui o usuário irá inserir o órgão que expediu o registro
+            único.
+            </summary>
+        </member>
+        <member name="T:Negocio.Model.Funcionario">
+            <summary>
+            A classe Funcionário é responsável por criar espaços no disco quando instanciada para manipulação
+            das informações inerentes a este, que vão ser adicionadas conforme os nomes dos
+            seus atributos.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.cargo">
+            <summary>
+            Cargo = aqui será definido pelo usuário o cargo que o funcionário exercera na
+            empresa.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.funcionarioID">
+            <summary>
+            FuncinarioID = este ficará responsável por identificar unicamente os
+            funcionários desta classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.bairro">
+            <summary>
+            Bairro = aqui será inserido pelo usuário o nome do bairro onde o funcionário
+            mora.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.categoria">
+            <summary>
+            Categoria = aqui será inserida a categoria o qual o funcionário pertence
+            definido em sua habilitação.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.nome">
+            <summary>
+            Nome = aqui será inserido pelo usuário o nome do novo funcionário da empresa.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.cep">
+            <summary>
+            CEP = aqui será inserido o cep da rua em que o funcionário mora.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.cpf">
+            <summary>
+            CPF = aqui será inserido o numero de cadastro de pessoa física do funcionário.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.dataAtivado">
+            <summary>
+            Data de Ativado = aqui será inserida a data em que o funcionário foi registrado no sistema.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.dataDesativado">
+            <summary>
+            Data de desativação = aqui será inserid a data em que o funcionário passou a não exercer mais a sua função na empresa.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.dataNascimento">
+            <summary>
+            Data de Nascimento = campo em que será inserido a data em que o funcionário
+            nasceu.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.endereco">
+            <summary>
+            Endereço = aqui será inserido o nome da rua e o numero da casa do funcionário.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.telefone1">
+            <summary>
+            Telefone = será aqui o numero do telefone do funcionário.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.telefone2">
+            <summary>
+            Telefone celular 1 = será inserido aqui o numero do telefone celular
+            funcionário.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.observacao">
+            <summary>
+            Observação = aqui será inserida qualquer observação necessária sobre o
+            funcionário.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.rg">
+            <summary>
+            RG = aqui será inserido o registro único do funcionário.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.orgaoEmissor">
+            <summary>
+            Órgão expedidor = aqui o usuário irá inserir o órgão que expediu o registro
+            único.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.habilitacao">
+            <summary>
+            Habilitação = aqui será inserido o numero da habilitação do funcionário.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.senha">
+            <summary>
+            Senha = aqui será definido uma senha para os funcionários que tiver que
+            interagir com o sistema.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.login">
+            <summary>
+            Login = aqui será criado o login de acesso que o funcionário irá utilizar para
+            acessar o sistema.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.complemento">
+            <summary>
+            Complemento  =  será inserido qualquer complemento do endereço do funcionário.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.login2">
+            <summary>
+            Login2 = atributo usado para comparação de usuário para saber se o mesmo digitou o usuário correto desejado.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Funcionario.senha2">
+            <summary>
+            Senha2 = atributo usado para comparação de senha para saber se o mesmo digitou a senha correta desejado.
+            </summary>
+        </member>
+        <member name="T:Negocio.Model.ItemProduto">
+            <summary>
+            A classe ItemProduto é responsável por criar espaços no disco quando instanciada para manipulação
+            das informações inerentes a este, que vão ser adicionadas conforme os nomes dos
+            seus atributos. Também ficará responsável em processar os serviços criando uma
+            lista conforme a inserção de quantidades.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.ItemProduto.itemProdutoID">
+            <summary>
+            Este ficara responsável pelo identificador únicamente o item de produto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.ItemProduto.quantidadeItem">
+            <summary>
+            Campo que será inserido a quantidade do produto a ser vendida.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.ItemProduto.total">
+             <summary>
+            Total = aqui será inserido automaticamente o total gerado de quantidade de produto e preço unitário.
+             </summary>
+        </member>
+        <member name="F:Negocio.Model.ItemProduto.preco">
+             <summary>
+            Preço = Campo que será responsável por receber 
+            automaticamente o preço do produto que estará vindo do banco de dados.
+             </summary>
+        </member>
+        <member name="F:Negocio.Model.ItemProduto.objProduto">
+             <summary>
+            Este é responsável por criar o objeto do tipo Produto.
+             </summary>
+        </member>
+        <member name="F:Negocio.Model.ItemProduto.ordemServico">
+             <summary>
+            Este é responsável por ligar a ordem de serviço com o produto.  
+            </summary>
+        </member>
+        <member name="M:Negocio.Model.ItemProduto.#ctor(Negocio.Model.OrdemServico)">
+            <summary>
+            Método construtor que representa a composição entre item de Produto e ordem de serviço ligando à ordem de serviço a classe Produto estanciando o Produto.
+            </summary>
+            <param name="OS">Parâmetro que passa ao método construtor item de Produto a ordem de serviço a qual os Proutos pertencem.</param>
+        </member>
+        <member name="T:Negocio.Model.ItemServico">
+            <summary>
+            A classe ItemServico é responsável por criar espaços no disco quando instanciada para manipulação
+            das informações inerentes a este, que vão ser adicionadas conforme os nomes dos
+            seus atributos. Também ficará responsável em processar os serviços criando uma
+            lista conforme a inserção de quantidades.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.ItemServico.itemServicoID">
+            <summary>
+            Item Serviço ID = Este ficara responsável pelo identificador único do item de Serviço. 
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.ItemServico.preco">
+             <summary>
+            Item Preço = Este é responsável por armazenar o preço do produto que está vindo da classe Produto.
+             </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:Negocio.Model.ItemServico.servico" -->
+        <!-- Badly formed XML comment ignored for member "F:Negocio.Model.ItemServico.ordemServico" -->
+        <member name="M:Negocio.Model.ItemServico.#ctor(Negocio.Model.OrdemServico)">
+            <summary>
+            Método construtor que representa a composição entre item de serviço e ordem de serviço ligando à ordem de serviço a classe serviço estanciando o serviço.
+            </summary>
+            <param name="OS">Parâmetro que passa ao método construtor item de serviço a ordem de serviço a qual os serviços pertencem.</param>
+        </member>
+        <member name="T:Negocio.Model.Moto">
+            <summary>
+            A classe Moto é responsável por criar espaços no disco quando instanciada para manipulação das
+            informações inerentes a este, que vão ser adicionadas conforme os nomes dos
+            seus atributos.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Moto.motoID">
+            <summary>
+            Moto ID = este ficará responsável por identificar unicamente todas as motos
+            desta classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Moto.placa">
+            <summary>
+            Placa = será inserida aqui o numero da placa da moto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Moto.chassi">
+            <summary>
+            Chassi = será inserido aqui o numero do chassi da moto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Moto.marcaModelo">
+            <summary>
+            Marca Modelo = será inserida aqui o modelo e marca da moto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Moto.anoFabricacao">
+            <summary>
+            Ano de fabricação = será inserido aqui o ano em que a moto foi fabricada a moto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Moto.corPredominante">
+            <summary>
+            Cor predominante = a cor da moto que mais predomina definida no documento da
+            moto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Moto.observacao">
+            <summary>
+            Observação = aqui será inserida qualquer observação necessária sobre a moto.
+            </summary>
+        </member>
+        <member name="T:Negocio.Model.OrdemServico">
+            <summary>
+            A classe OrdemServico é responsável por criar espaços no disco quando instanciada para manipulação
+            das informações inerentes a este, que vão ser adicionadas conforme os nomes dos
+            seus atributos. Também é responsável em buscar em suas classes agregadas as informações de
+            cliente, moto, funcionário, produto e serviços que comporão a ordem de serviço.
+            Está fará processamento e controle dos produtos e serviços.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.ordemServicoID">
+            <summary>
+            Ordem de serviço ID = este ficará responsável por identificar unicamente todas
+            as ordens de serviço.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.dataAberturaOS">
+            <summary>
+            Data de abertura da OS = será inserida aqui a data e hora de criação da ordem de
+            serviço pelo sistema para controle de inicio do serviço.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.dataFechamentoOS">
+            <summary>
+            Data de fechamento da OS = será inserida aqui a data e hora em que a ordem de serviço
+            foi finalizada para controle de tempo final do serviço.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.km">
+            <summary>
+            Km = aqui será inserido a numeração atual da quilometragem em que a moto deu
+            entrada para efetuar algum tipo de serviço na loja.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.observacao">
+            <summary>
+            Observação = aqui será inserida qualquer observação necessária que diz respeito
+            aquela ordem de serviço.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.valorTotalOS">
+            <summary>
+            Valor total = aqui será colocado automaticamente o valor total dos serviços e
+            produto sem desconto realizados nesta ordem de serviço para apenas manipulação dos dados.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.valorTotalProduto">
+            <summary>
+            Valor totalProdutos = aqui será colocado automaticamente o valor total dos 
+            produtos utilizados na moto nesta ordem de serviço para apenas manipulação dos dados.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.valorTotalServicos">
+            <summary>
+            Valor total Serviços = aqui será colocado automaticamente o valor total dos
+            serviços realizados na moto nesta ordem de serviço para apenas manipulação dos dados.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.desconto">
+            <summary>
+            Desconto = será inserido o valor de desconto do produto se houver.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.totalOSdesconto">
+             <summary>
+            Total da ordem de Serviço com o Desconto = Este é responsável por receber o valor 
+            a ser pago após desconto dado no total da ordem de serviço para apenas manipulação dos dados...
+             </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.tipoDesconto">
+             <summary>
+            Tipo de Desconto = Este é responsável por definir se o desconto será feito
+            por em espécie ou em porcentagem.
+             </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.listaItemProduto">
+            <summary>
+            Lista de Item de Produto = será lido aqui todos os produtos inseridos pertencente a uma ordem de serviço especifico
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:Negocio.Model.OrdemServico.moto" -->
+        <member name="F:Negocio.Model.OrdemServico.cliente">
+             <summary>
+            Cliente = responsável por criar um objeto do tipo Cliente para armazenamento de todas as Informações inerentes a este.
+             </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.funcionario">
+             <summary>
+            Funcionário = responsável por criar um objeto do tipo Funcionário para armazenamento de todas as Informações inerentes a este.
+             </summary>
+        </member>
+        <member name="F:Negocio.Model.OrdemServico.listaItemServico">
+            <summary>
+            Lista de Item de Serviço = será lido aqui todos os serviços inseridos pertencente a uma ordem de serviço especifico
+            </summary>
+        </member>
+        <member name="M:Negocio.Model.OrdemServico.#ctor">
+            <summary>
+            Ordem de Serviço = Método construtor que agrega ao objeto ordem de serviços todas as informações pertencentes a uma ordem de serviço.
+            </summary>
+        </member>
+        <member name="T:Negocio.Model.Produto">
+            <summary>
+            A classe Produto é responsável por criar espaços no disco quando instanciada para manipulação das
+            informações inerentes a este, que vão ser adicionadas conforme os nomes dos
+            seus atributos.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.produtoID">
+            <summary>
+            Produto ID = este ficará responsável por identificar unicamente todos os
+            produtos desta classe.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.nomeProduto">
+            <summary>
+            Nome do produto = será inserido aqui o nome do produto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.nomeFornecedor">
+            <summary>
+            Nome do fornecedor = será inserido aqui o nome do fornecedor que forneceu o
+            produto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.estoqueMinimo">
+            <summary>
+            Estoque mínimo = o usuário definira aqui um numero mínimo do produto em estoque.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.estoque">
+            <summary>
+            Estoque = fornecerá automaticamente para o usuário a quantidade do
+            produto que estiver em estoque no momento da inserção.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.entradaEstoque">
+            <summary>
+            Entrada de estoque = será inserido a nova quantidade de produtos que foi comprada
+            para loja.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.marcaModelo">
+            <summary>
+            Marca e Modelo = será definida a marca e o modelo do produto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.precoCompra">
+             <summary>
+            Preço de compra = será inserido aqui o valor que o produto custou para empresa.
+             </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.precoVenda">
+            <summary>
+            Preço de venda = aqui será inserido automaticamente o valor que custara para o
+            cliente o produto.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.telefoneFornecedor">
+            <summary>
+            Telefone do fornecedor = será inserido aqui o numero do telefone do fornecedor
+            para eventual contato com o mesmo.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Produto.observacao">
+             <summary>
+            Observação = aqui será inserida qualquer observação inerente ao produto.
+             </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._ProdutoID">
+            <summary>
+            Produto ID = este ficará responsável por identificar unicamente todos os
+            produtos desta classe.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._NomeProduto">
+            <summary>
+            Nome do produto = será inserido aqui o nome do produto.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._NomeFornecedor">
+            <summary>
+            Nome do fornecedor = será inserido aqui o nome do fornecedor que forneceu o
+            produto.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._EstoqueMinimo">
+            <summary>
+            Estoque mínimo = o usuário definira aqui um numero mínimo do produto em estoque.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._Estoque">
+            <summary>
+            Estoque = fornecerá automaticamente para o usuário a quantidade do
+            produto que estiver em estoque no momento da inserção.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._EntradaEstoque">
+            <summary>
+            Entrada de estoque = será inserido a nova quantidade de produtos que foi comprada
+            para loja.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._MarcaModelo">
+            <summary>
+            Marca e Modelo = será definida a marca e o modelo do produto.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._PrecoCompra">
+             <summary>
+            Preço de compra = será inserido aqui o valor que o produto custou para empresa.
+             </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._PrecoVenda">
+            <summary>
+            Preço de venda = aqui será inserido automaticamente o valor que custara para o
+            cliente o produto.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._TelefoneFornecedor">
+            <summary>
+            Telefone do fornecedor = será inserido aqui o numero do telefone do fornecedor
+            para eventual contato com o mesmo.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Produto._Observacao">
+             <summary>
+            Observação = aqui será inserida qualquer observação inerente ao produto.
+             </summary>
+        </member>
+        <member name="T:Negocio.Model.Servico">
+            <summary>
+            A classe Serviço é responsável por criar espaços no disco quando instanciada para manipulação das
+            informações inerentes a este, que vão ser adicionadas conforme os nomes dos
+            seus atributos.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Servico.nomeServico">
+            <summary>
+            Nome do Serviço = Campo que será inserido o nome do serviço que a loja irá disponibilizar aos
+            clientes.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Servico.servicoID">
+            <summary>
+            Serviço ID = Este ficara responsável pelo identificador único dos serviços
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Servico.preco">
+             <summary>
+            Preço = Campo que será inserido o preço que custará o serviço.
+             </summary>
+        </member>
+        <member name="F:Negocio.Model.Servico.observacao">
+            <summary>
+            Observação = aqui será inserida qualquer observação necessária que diz respeito a serviço.
+            </summary>
+        </member>
+        <member name="F:Negocio.Model.Servico.marcaModelo">
+            <summary>
+            Marca e Modelo = será definido aqui para qual a marca e modelo de moto é aquele serviço.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Servico._MarcaModelo">
+            <summary>
+            Marca e Modelo = será definido aqui para qual a marca e modelo de moto é aquele serviço.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Servico._NomeServico">
+            <summary>
+            Nome do Serviço = Campo que será inserido o nome do serviço que a loja irá disponibilizar aos
+            clientes.
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Servico._ServicoID">
+            <summary>
+            Serviço ID = Este ficara responsável pelo identificador único dos serviços
+            </summary>
+        </member>
+        <member name="P:Negocio.Model.Servico._Preco">
+             <summary>
+            Preço = Campo que será inserido o preço que custará o serviço.
+             </summary>
+        </member>
+        <member name="P:Negocio.Model.Servico._Observacao">
+            <summary>
+            Observação = aqui será inserida qualquer observação necessária que diz respeito a serviço.
+            </summary>
+        </member>
+        <member name="T:Negocio.Model.Cargo">
+            <summary>
+            Este enumeration Cargo é onde vai ser definido o tipo de cargo que o
+            funcionário exerce na empresa.
+            </summary>
+        </member>
+        <member name="T:Negocio.Model.Sexo">
+            <summary>
+            Este enumeration Sexo é onde vai ser definido se o Cliente é masculino ou feminino.
+            </summary> 
+        </member>
+        <member name="T:Negocio.Model.Uf">
+            <summary>
+            Este enumeration apresentará as opções de estado para o usuário.
+            </summary>
+        </member>
+    </members>
+</doc>
